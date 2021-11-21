@@ -10,31 +10,35 @@
         android:id="@+id/btn_belajar"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/belajar"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="128dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="128dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mulai_belajar"
+        android:scaleType="fitXY"
+        android:src="@drawable/belajar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/mulai_belajar" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_quiz"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/quiz"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="128dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="128dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mulai_quiz"
+        android:scaleType="fitXY"
+        android:src="@drawable/quiz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/mulai_quiz" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
