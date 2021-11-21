@@ -8,62 +8,43 @@
 
     <ImageButton
         android:id="@+id/btn_menengah"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="85dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         android:contentDescription="@string/mulai_quiz_mudah"
         android:scaleType="fitXY"
         android:src="@drawable/menengah"
-        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        android:background="@color/material_on_background_disabled"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_mudah"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
         android:contentDescription="@string/mulai_quiz_menengah"
         android:scaleType="fitXY"
         android:src="@drawable/mudah"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        android:background="@color/material_on_background_disabled"
+        app:layout_constraintBottom_toTopOf="@+id/btn_menengah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_sulit"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="100dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="64dp"
         android:contentDescription="@string/mulai_quiz_sulit"
         android:scaleType="fitXY"
         android:src="@drawable/sulit"
+        android:background="@color/material_on_background_disabled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guideline7" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="214dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="508dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_menengah" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
