@@ -3,4 +3,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mulai_belajar">Mulai Belajar</string>
     <string name="mulai_quiz">Mulai Quiz</string>
+    <string name="mulai_belajar_konsonan">Mulai Belajar Konsonan</string>
+    <string name="mulai_belajar_huruf_vokal">Mulai Belajar Huruf Vokal</string>
+    <string name="mulai_belajar_cara_membaca">Mulai Belajar Cara Membaca</string>
+    <string name="mulai_quiz_sulit">Mulai Quiz Sulit</string>
+    <string name="mulai_quiz_menengah">Mulai Quiz Menengah</string>
+    <string name="mulai_quiz_mudah">Mulai Quiz Mudah</string>
 </resources>
