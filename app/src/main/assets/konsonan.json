@@ -1,0 +1,92 @@
+[
+    {
+        "nama" : "k",
+        "karakter" : "k_or_g.png",
+        "cara pengucapan" : "ka.ogg"
+    },
+    {
+        "nama" : "b",
+        "karakter" : "b_or_p.png",
+        "cara pengucapan" : "pa.ogg"
+    },
+    {
+        "nama" : "jj",
+        "karakter" : "c_or_jj.png",
+        "cara pengucapan" : "ca.ogg"
+    },
+    {
+        "nama" : "ch",
+        "karakter" : "ch.png",
+        "cara pengucapan" : "cha.ogg"
+    },
+    {
+        "nama" : "d",
+        "karakter" : "d.png",
+        "cara pengucapan" : "ta.ogg"
+    },
+    {
+        "nama" : "h",
+        "karakter" : "h.png",
+        "cara pengucapan" : "ha.ogg"
+    },
+    {
+        "nama" : "j",
+        "karakter" : "j.png",
+        "cara pengucapan" : "ca.ogg"
+    },
+    {
+        "nama" : "kk",
+        "karakter" : "k_or_kk.png",
+        "cara pengucapan" : "ka.ogg"
+    },
+    {
+        "nama" : "kh",
+        "karakter" : "kh_or_q.png",
+        "cara pengucapan" : "kha.ogg"
+    },
+    {
+        "nama" : "l",
+        "karakter" : "l.png",
+        "cara pengucapan" : "ra.ogg"
+    },
+    {
+        "nama" : "m",
+        "karakter" : "m.png",
+        "cara pengucapan" : "ma.ogg"
+    },
+    {
+        "nama" : "ng",
+        "karakter" : "n_or_ng.png",
+        "cara pengucapan" : "ang.ogg"
+    },
+    {
+        "nama" : "pp",
+        "karakter" : "pp_or_bb.png",
+        "cara pengucapan" : "pa.ogg"
+    },
+    {
+        "nama" : "rr",
+        "karakter" : "r_or_l.png",
+        "cara pengucapan" : "ra.ogg"
+    },
+    {
+        "nama" : "s",
+        "karakter" : "s.png",
+        "cara pengucapan" : "sa.ogg"
+    },
+    {
+        "nama" : "ss",
+        "karakter" : "ss.png",
+        "cara pengucapan" : "sa.ogg"
+    },
+    {
+        "nama" : "tt",
+        "karakter" : "t_or_tt.png",
+        "cara pengucapan" : "ta.ogg"
+    },
+    {
+        "nama" : "th",
+        "karakter" : "th_or_t.png",
+        "cara pengucapan" : "tha.ogg"
+    }
+]

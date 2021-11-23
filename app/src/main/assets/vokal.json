@@ -1,0 +1,107 @@
+[
+    {
+        "nama" : "a",
+        "karakter" : "a.png",
+        "cara pengucapan" : "a.ogg"
+    },
+    {
+        "nama" : "ae",
+        "karakter" : "ae.png",
+        "cara pengucapan" : "ae.ogg"
+    },
+    {
+        "nama" : "e",
+        "karakter" : "e.png",
+        "cara pengucapan" : "e.ogg"
+    },
+    {
+        "nama" : "eo",
+        "karakter" : "eo.png",
+        "cara pengucapan" : "o.ogg"
+    },
+    {
+        "nama" : "eu",
+        "karakter" : "eu.png",
+        "cara pengucapan" : "eu.ogg"
+    },
+    {
+        "nama" : "eui",
+        "karakter" : "eui.png",
+        "cara pengucapan" : "eui.ogg"
+    },
+    {
+        "nama" : "i",
+        "karakter" : "i.png",
+        "cara pengucapan" : "i.ogg"
+    },
+    {
+        "nama" : "o",
+        "karakter" : "o.png",
+        "cara pengucapan" : "ou.ogg"
+    },
+    {
+        "nama" : "oi",
+        "karakter" : "oi.png",
+        "cara pengucapan" : "oe.ogg"
+    },
+    {
+        "nama" : "u",
+        "karakter" : "u.png",
+        "cara pengucapan" : "u.ogg"
+    },
+    {
+        "nama" : "wa",
+        "karakter" : "wa.png",
+        "cara pengucapan" : "wa.ogg"
+    },
+    {
+        "nama" : "wae",
+        "karakter" : "wae.png",
+        "cara pengucapan" : "wae.ogg"
+    },
+    {
+        "nama" : "we",
+        "karakter" : "we_or_ae.png",
+        "cara pengucapan" : "we.ogg"
+    },
+    {
+        "nama" : "wo",
+        "karakter" : "weo_or_wo.png",
+        "cara pengucapan" : "wo.ogg"
+    },
+    {
+        "nama" : "wi",
+        "karakter" : "wi_or_ui.png",
+        "cara pengucapan" : "wi.ogg"
+    },
+    {
+        "nama" : "ya",
+        "karakter" : "ya.png",
+        "cara pengucapan" : "ya.ogg"
+    },
+    {
+        "nama" : "yae",
+        "karakter" : "yae.png",
+        "cara pengucapan" : "yae.ogg"
+    },
+    {
+        "nama" : "ye",
+        "karakter" : "ye.png",
+        "cara pengucapan" : "ye.ogg"
+    },
+    {
+        "nama" : "yeo",
+        "karakter" : "yeo.png",
+        "cara pengucapan" : "yo.ogg"
+    },
+    {
+        "nama" : "yo",
+        "karakter" : "yo.png",
+        "cara pengucapan" : "you.ogg"
+    },
+    {
+        "nama" : "yu",
+        "karakter" : "yu.png",
+        "cara pengucapan" : "yu.ogg"
+    }
+]
