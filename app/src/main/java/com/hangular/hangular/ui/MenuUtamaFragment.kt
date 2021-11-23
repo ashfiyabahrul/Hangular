@@ -1,10 +1,11 @@
-package com.hangular.hangular
+package com.hangular.hangular.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.hangular.hangular.R
 import com.hangular.hangular.databinding.FragmentMenuUtamaBinding
 
 class MenuUtamaFragment : Fragment(), View.OnClickListener {
@@ -32,7 +33,7 @@ class MenuUtamaFragment : Fragment(), View.OnClickListener {
             mFragmentManager
                 .beginTransaction()
                 .apply {
-                    replace(R.id.menu_utama,menuBelajar,MenuBelajarFragment::class.java.simpleName)
+                    replace(R.id.menu_utama,menuBelajar, MenuBelajarFragment::class.java.simpleName)
                     addToBackStack(null)
                     commit()
                 }
@@ -42,7 +43,7 @@ class MenuUtamaFragment : Fragment(), View.OnClickListener {
             mFragmentManager
                 .beginTransaction()
                 .apply {
-                    replace(R.id.menu_utama,menuQuiz,MenuQuizFragment::class.java.simpleName)
+                    replace(R.id.menu_utama,menuQuiz, MenuQuizFragment::class.java.simpleName)
                     addToBackStack(null)
                     commit()
                 }

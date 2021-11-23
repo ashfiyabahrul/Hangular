@@ -1,7 +1,8 @@
-package com.hangular.hangular
+package com.hangular.hangular.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hangular.hangular.R
 import com.hangular.hangular.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         if (fragment !is MenuUtamaFragment) {
             mFragmentManager
                 .beginTransaction()
-                .add(R.id.menu_utama,menuUtama,MenuUtamaFragment::class.java.simpleName)
+                .add(R.id.menu_utama,menuUtama, MenuUtamaFragment::class.java.simpleName)
                 .commit()
         }
     }
