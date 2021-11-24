@@ -1,4 +1,4 @@
-package com.hangular.hangular.ui
+package com.hangular.hangular.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

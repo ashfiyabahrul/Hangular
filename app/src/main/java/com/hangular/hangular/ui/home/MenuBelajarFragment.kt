@@ -1,21 +1,22 @@
-package com.hangular.hangular.ui
+package com.hangular.hangular.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.hangular.hangular.databinding.FragmentMenuQuizBinding
+import com.hangular.hangular.databinding.FragmentMenuBelajarBinding
 
-class MenuQuizFragment : Fragment() {
 
-    lateinit var binding: FragmentMenuQuizBinding
+class MenuBelajarFragment : Fragment() {
+
+    lateinit var binding: FragmentMenuBelajarBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentMenuQuizBinding.inflate(inflater,container,false)
+        binding = FragmentMenuBelajarBinding.inflate(inflater,container,false)
         return binding.root
     }
 }
