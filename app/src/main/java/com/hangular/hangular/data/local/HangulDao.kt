@@ -18,4 +18,7 @@ interface HangulDao {
 
     @Query("SELECT * FROM hangul WHERE tipe= 2")
     fun getHangulKonsonan() : LiveData<List<Hangul>>
+
+    @Query("SELECT * FROM hangul")
+    fun getHangul() : LiveData<List<Hangul>>
 }

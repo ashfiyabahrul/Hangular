@@ -1,4 +1,4 @@
-package com.hangular.hangular.ui.vocal
+package com.hangular.hangular.ui.hangul
 
 import android.app.Application
 import androidx.lifecycle.LiveData
@@ -12,7 +12,7 @@ class VocalViewModel (application: Application) : ViewModel() {
 
     fun getHangulVocal() : LiveData<List<Hangul>> = mHangulRepository.getHangulVocal()
 
-    fun insertHangulVocal(hangulVocal : List<Hangul>) {
-        mHangulRepository.insertHangulVocal(hangulVocal)
-    }
+    fun getHangulKonsonan() : LiveData<List<Hangul>> = mHangulRepository.getHangulKonsonan()
+
+
 }
