@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.hangular.hangular.R
 import com.hangular.hangular.databinding.ActivityMainBinding
+import com.hangular.hangular.utils.HangulCaraBaca
 import com.hangular.hangular.utils.HangulKonsonan
 import com.hangular.hangular.utils.HangulVokal
 import com.hangular.hangular.utils.ViewModelFactory
@@ -12,8 +13,8 @@ import com.hangular.hangular.utils.ViewModelFactory
 class MainActivity : AppCompatActivity() {
 
     val mFragmentManager = supportFragmentManager
-    val menuUtama = MenuUtamaFragment()
-    val fragment = mFragmentManager.findFragmentByTag(MenuUtamaFragment::class.java.simpleName)
+    val menuBelajar = MenuBelajarFragment()
+    val fragment = mFragmentManager.findFragmentByTag(MenuBelajarFragment::class.java.simpleName)
     lateinit var binding : ActivityMainBinding
     lateinit var viewModel: MainViewModel
 
@@ -31,10 +32,16 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        viewModel.getBaca().observe(this, {
+            if (it.isEmpty()) {
+                viewModel.insertCara(HangulCaraBaca.generateBaca())
+            }
+        })
+
         if (fragment !is MenuUtamaFragment) {
             mFragmentManager
                 .beginTransaction()
-                .add(R.id.menu_utama,menuUtama, MenuUtamaFragment::class.java.simpleName)
+                .add(R.id.menu_utama,menuBelajar, MenuBelajarFragment::class.java.simpleName)
                 .commit()
         }
     }

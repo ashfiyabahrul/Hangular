@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.hangular.hangular.R
 import com.hangular.hangular.databinding.FragmentMenuBelajarBinding
+import com.hangular.hangular.ui.baca.CaraBacaActivity
 import com.hangular.hangular.ui.hangul.HangulVocalActivity
 
 
@@ -40,6 +41,10 @@ class MenuBelajarFragment : Fragment(), View.OnClickListener {
         else if (v?.id == R.id.btn_konsonan) {
             val intent = Intent(activity,HangulVocalActivity::class.java)
             intent.putExtra(HangulVocalActivity.HANGUL,2)
+            startActivity(intent)
+        }
+        else if (v?.id == R.id.btn_baca) {
+            val intent = Intent(activity,CaraBacaActivity::class.java)
             startActivity(intent)
         }
 

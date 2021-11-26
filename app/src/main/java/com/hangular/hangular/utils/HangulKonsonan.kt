@@ -74,9 +74,9 @@ object HangulKonsonan {
         )
         hangulKonsonan.add(
             Hangul(
-                nama = "LA",
-                gambar = R.drawable.l,
-                suara = R.raw.ra,
+                nama = "NA",
+                gambar = R.drawable.n,
+                suara = R.raw.na,
                 tulis = 0,
                 tipe = 2
             )

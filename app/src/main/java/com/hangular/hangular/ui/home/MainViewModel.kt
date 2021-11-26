@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.hangular.hangular.data.local.HangulRepository
+import com.hangular.hangular.data.model.Baca
 import com.hangular.hangular.data.model.Hangul
 
 class MainViewModel (application: Application) : ViewModel() {
@@ -16,4 +17,8 @@ class MainViewModel (application: Application) : ViewModel() {
         hangulRepository.insertHangulVocal(hangulVocal)
         hangulRepository.insertHangulKonsonan(hangulKonsonan)
     }
+
+    fun insertCara(caraBaca : List<Baca>) = hangulRepository.insertCaraBaca(caraBaca)
+
+    fun getBaca () : LiveData<List<Baca>> = hangulRepository.getBaca()
 }

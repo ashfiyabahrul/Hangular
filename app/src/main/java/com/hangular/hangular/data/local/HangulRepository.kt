@@ -2,10 +2,8 @@ package com.hangular.hangular.data.local
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import com.hangular.hangular.data.model.Baca
 import com.hangular.hangular.data.model.Hangul
-import com.hangular.hangular.utils.HangulKonsonan
-import com.hangular.hangular.utils.HangulVokal
-import java.util.concurrent.Executor
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
@@ -25,6 +23,8 @@ class HangulRepository (application: Application) {
 
     fun getHangul() : LiveData<List<Hangul>> = mHangulDao.getHangul()
 
+    fun getBaca() : LiveData<List<Baca>> = mHangulDao.getBaca()
+
     fun getDetail(id : Int) : LiveData<Hangul> = mHangulDao.getDetail(id)
 
     fun insertHangulVocal(hangulVocal : List<Hangul>) {
@@ -33,5 +33,9 @@ class HangulRepository (application: Application) {
 
     fun insertHangulKonsonan(hangulKonsonan : List<Hangul>) {
         executorService.execute { mHangulDao.insertHangul(hangulKonsonan) }
+    }
+
+    fun insertCaraBaca (caraBaca : List<Baca>) {
+        executorService.execute { mHangulDao.insertBaca(caraBaca) }
     }
 }
