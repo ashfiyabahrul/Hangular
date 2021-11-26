@@ -28,11 +28,13 @@ class HangulVocalActivity : AppCompatActivity() {
         viewModel = obtainViewModel(this)
 
         if (intent.getIntExtra(HANGUL,0) == 1){
+            supportActionBar?.title = "VOCAL"
             viewModel.getHangulVocal().observe(this, {listVocal ->
                 hangul.addAll(listVocal)
             })
         }
         else if (intent.getIntExtra(HANGUL,0) == 2){
+            supportActionBar?.title = "KONSONAN"
             viewModel.getHangulKonsonan().observe(this, {listKonsonan ->
                 hangul.addAll(listKonsonan)
             })

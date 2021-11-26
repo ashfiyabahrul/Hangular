@@ -13,7 +13,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "KA or GA",
                 gambar = R.drawable.k_or_g,
-                suara = "",
+                suara = R.raw.ka,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -21,15 +22,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "BA or PA",
                 gambar = R.drawable.b_or_p,
-                suara = "",
-                tipe = 2
-            )
-        )
-        hangulKonsonan.add(
-            Hangul(
-                nama = "C or JJ",
-                gambar = R.drawable.c_or_jj,
-                suara = "",
+                suara = R.raw.pa,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -37,7 +31,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "CHA",
                 gambar = R.drawable.ch,
-                suara = "",
+                suara = R.raw.cha,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -45,7 +40,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "DA",
                 gambar = R.drawable.d,
-                suara = "",
+                suara = R.raw.ta,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -53,7 +49,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "HA",
                 gambar = R.drawable.h,
-                suara = "",
+                suara = R.raw.ha,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -61,15 +58,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "JA",
                 gambar = R.drawable.j,
-                suara = "",
-                tipe = 2
-            )
-        )
-        hangulKonsonan.add(
-            Hangul(
-                nama = "KK",
-                gambar = R.drawable.k_or_kk,
-                suara = "",
+                suara = R.raw.ca,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -77,7 +67,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "QA or KHA",
                 gambar = R.drawable.kh_or_q,
-                suara = "",
+                suara = R.raw.kha,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -85,7 +76,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "LA",
                 gambar = R.drawable.l,
-                suara = "",
+                suara = R.raw.ra,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -93,7 +85,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "MA",
                 gambar = R.drawable.m,
-                suara = "",
+                suara = R.raw.ma,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -101,7 +94,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "N or NG",
                 gambar = R.drawable.n_or_ng,
-                suara = "",
+                suara = R.raw.ang,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -109,15 +103,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "PHA",
                 gambar = R.drawable.ph,
-                suara = "",
-                tipe = 2
-            )
-        )
-        hangulKonsonan.add(
-            Hangul(
-                nama = "PP",
-                gambar = R.drawable.pp_or_bb,
-                suara = "",
+                suara = R.raw.pha,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -125,31 +112,17 @@ object HangulKonsonan {
             Hangul(
                 nama = "R or LL",
                 gambar = R.drawable.r_or_l,
-                suara = "",
+                suara = R.raw.ra,
+                tulis = 0,
                 tipe = 2
             )
         )
         hangulKonsonan.add(
             Hangul(
-                nama = "S",
+                nama = "SA",
                 gambar = R.drawable.s,
-                suara = "",
-                tipe = 2
-            )
-        )
-        hangulKonsonan.add(
-            Hangul(
-                nama = "SS",
-                gambar = R.drawable.ss,
-                suara = "",
-                tipe = 2
-            )
-        )
-        hangulKonsonan.add(
-            Hangul(
-                nama = "TT",
-                gambar = R.drawable.t_or_tt,
-                suara = "",
+                suara = R.raw.sa,
+                tulis = 0,
                 tipe = 2
             )
         )
@@ -157,7 +130,8 @@ object HangulKonsonan {
             Hangul(
                 nama = "T or TH",
                 gambar = R.drawable.th_or_t,
-                suara = "",
+                suara = R.raw.tha,
+                tulis = 0,
                 tipe = 2
             )
         )

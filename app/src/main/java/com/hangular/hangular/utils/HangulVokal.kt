@@ -13,7 +13,8 @@ object HangulVokal {
             Hangul(
                 nama = "A",
                 gambar = R.drawable.a,
-                suara = "",
+                suara = R.raw.a,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -21,7 +22,8 @@ object HangulVokal {
             Hangul(
                 nama = "AE",
                 gambar = R.drawable.ae,
-                suara = "",
+                suara = R.raw.ae,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -29,7 +31,8 @@ object HangulVokal {
             Hangul(
                 nama = "E",
                 gambar = R.drawable.e,
-                suara = "",
+                suara = R.raw.e,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -37,7 +40,8 @@ object HangulVokal {
             Hangul(
                 nama = "EO",
                 gambar = R.drawable.eo,
-                suara = "",
+                suara = R.raw.o,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -45,7 +49,8 @@ object HangulVokal {
             Hangul(
                 nama = "EU",
                 gambar = R.drawable.eu,
-                suara = "",
+                suara = R.raw.eu,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -53,7 +58,8 @@ object HangulVokal {
             Hangul(
                 nama = "EUI",
                 gambar = R.drawable.eui,
-                suara = "",
+                suara = R.raw.eui,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -61,7 +67,8 @@ object HangulVokal {
             Hangul(
                 nama = "I",
                 gambar = R.drawable.i,
-                suara = "",
+                suara = R.raw.i,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -69,7 +76,8 @@ object HangulVokal {
             Hangul(
                 nama = "O",
                 gambar = R.drawable.o,
-                suara = "",
+                suara = R.raw.ou,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -77,7 +85,8 @@ object HangulVokal {
             Hangul(
                 nama = "OI",
                 gambar = R.drawable.oi,
-                suara = "",
+                suara = R.raw.oe,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -85,7 +94,8 @@ object HangulVokal {
             Hangul(
                 nama = "U",
                 gambar = R.drawable.u,
-                suara = "",
+                suara = R.raw.u,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -93,7 +103,8 @@ object HangulVokal {
             Hangul(
                 nama = "WA",
                 gambar = R.drawable.wa,
-                suara = "",
+                suara = R.raw.wa,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -101,7 +112,8 @@ object HangulVokal {
             Hangul(
                 nama = "WAE",
                 gambar = R.drawable.wae,
-                suara = "",
+                suara = R.raw.wae,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -109,7 +121,8 @@ object HangulVokal {
             Hangul(
                 nama = "WE or AE",
                 gambar = R.drawable.we_or_ue,
-                suara = "",
+                suara = R.raw.we,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -117,7 +130,8 @@ object HangulVokal {
             Hangul(
                 nama = "WEO or WO",
                 gambar = R.drawable.weo_or_wo,
-                suara = "",
+                suara = R.raw.wo,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -125,7 +139,8 @@ object HangulVokal {
             Hangul(
                 nama = "WI",
                 gambar = R.drawable.wi_or_ui,
-                suara = "",
+                suara = R.raw.wi,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -133,7 +148,8 @@ object HangulVokal {
             Hangul(
                 nama = "YA",
                 gambar = R.drawable.ya,
-                suara = "",
+                suara = R.raw.ya,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -141,7 +157,8 @@ object HangulVokal {
             Hangul(
                 nama = "YAE",
                 gambar = R.drawable.yae,
-                suara = "",
+                suara = R.raw.yae,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -149,7 +166,8 @@ object HangulVokal {
             Hangul(
                 nama = "YE",
                 gambar = R.drawable.ye,
-                suara = "",
+                suara = R.raw.ye,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -157,7 +175,8 @@ object HangulVokal {
             Hangul(
                 nama = "YEO",
                 gambar = R.drawable.yeo,
-                suara = "",
+                suara = R.raw.yo,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -165,7 +184,8 @@ object HangulVokal {
             Hangul(
                 nama = "YO",
                 gambar = R.drawable.yo,
-                suara = "",
+                suara = R.raw.you,
+                tulis = 0,
                 tipe = 1
             )
         )
@@ -173,7 +193,8 @@ object HangulVokal {
             Hangul(
                 nama = "YU",
                 gambar = R.drawable.yu,
-                suara = "",
+                suara = R.raw.yu,
+                tulis = 0,
                 tipe = 1
             )
         )

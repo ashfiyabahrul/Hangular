@@ -10,4 +10,7 @@
     <string name="mulai_quiz_menengah">Mulai Quiz Menengah</string>
     <string name="mulai_quiz_mudah">Mulai Quiz Mudah</string>
     <string name="nama">nama</string>
+    <string name="hangul">hangul</string>
+    <string name="cara_membaca">Cara membaca/melafalkan</string>
+    <string name="mainkan_suara">Mainkan Suara</string>
 </resources>

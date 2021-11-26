@@ -21,4 +21,7 @@ interface HangulDao {
 
     @Query("SELECT * FROM hangul")
     fun getHangul() : LiveData<List<Hangul>>
+
+    @Query("SELECT * FROM hangul WHERE id = :id")
+    fun getDetail(id: Int) : LiveData<Hangul>
 }

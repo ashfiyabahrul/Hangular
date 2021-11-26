@@ -22,7 +22,10 @@ data class Hangul(
     val gambar : Int,
 
     @ColumnInfo(name = "suara")
-    val suara : String,
+    val suara : Int,
+
+    @ColumnInfo(name = "tulis")
+    val tulis : Int,
 
     @ColumnInfo(name = "tipe")
     val tipe : Int

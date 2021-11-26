@@ -25,6 +25,8 @@ class HangulRepository (application: Application) {
 
     fun getHangul() : LiveData<List<Hangul>> = mHangulDao.getHangul()
 
+    fun getDetail(id : Int) : LiveData<Hangul> = mHangulDao.getDetail(id)
+
     fun insertHangulVocal(hangulVocal : List<Hangul>) {
         executorService.execute { mHangulDao.insertHangul(hangulVocal) }
     }
