@@ -9,6 +9,7 @@
         <TextView
             android:text="@string/nama"
             android:id="@+id/tabel_nama"
+            android:textColor="@color/black"
             android:gravity="center"/>
 
         <ImageView
@@ -20,16 +21,19 @@
         <TextView
             android:text="@string/awal"
             android:id="@+id/tabel_awal"
+            android:textColor="@color/black"
             android:gravity="center"/>
 
         <TextView
             android:text="@string/tengah"
             android:id="@+id/tabel_tengah"
+            android:textColor="@color/black"
             android:gravity="center"/>
 
         <TextView
             android:text="@string/akhir"
             android:id="@+id/tabel_akhir"
+            android:textColor="@color/black"
             android:gravity="center"/>
 
     </TableRow>

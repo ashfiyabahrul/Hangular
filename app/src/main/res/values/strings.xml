@@ -16,10 +16,10 @@
     <string name="paragraf_1">Cara membaca huruf Han-geul tidak sama dengan cara membaca huruf romawi dalam tulisan bahasa Indonesia yang memiliki satu bunyi dalam satu huruf, karena dalam han-geul terdapat beberapa huruf yang memiliki dua atau lebih bunyi dalam satu huruf apabila dibaca pada posisi yang berbeda.</string>
     <string name="paragraf_2">Contoh, huruf kiyôk [ㄱ] terkadang dibaca \'K\' ataupun \'G\' tergantung letak posisinya dalam suku kata. Misalnya dalam kata 가격 [kagyôk] terdapat 3 buah huruf kiyôk [ㄱ] yang masing-masing berada pada posisi awal, tengah, dan pada akhir suku kata. Dalam hal ini ㄱ dibaca \'K\' pada posisi awal dan akhir, dan ㄱ dibaca \'G\' pada posisi tengah.</string>
     <string name="aturan">Aturan baca 오 [o], 어 [ô], ㅎ [h/t], ㅇ [~/ng]:</string>
-    <string name="aturan_1">Huruf vokal 어 [ô] dan 여 [yô] dalam romanisasi umum biasanya ditulis 어 [eo], 여 [yeo], dibaca tegas dan bentuk mulut bulat agak lebar ketika mengucapkannya.</string>
-    <string name="aturan_2">Sebaliknya huruf vokal 오 [o] dan 요 [yo] dibaca tidak tegas dan bentuk mulut bulat kecil seperti menggabungkan bunyi antara \'O\' dan \'U\' ketika mengucapkannya.</string>
-    <string name="aturan_3">Huruf konsonan ㅇ [~/ng] pada posisi awal dan tengah suku kata tidak dibaca, dan hanya dibaca \'ng\' ketika berada pada akhir suku kata.</string>
-    <string name="aturan_4">Huruf konsonan ㅎ [h/t] hanya dibaca \'H\' pada awal suku kata, di tengah dibaca lemah atau terkadang tidak dibaca sama sekali, dan di akhir suku kata dibaca \'T\' atau juga tidak dibaca.</string>
+    <string name="aturan_1">- Huruf vokal 어 [ô] dan 여 [yô] dalam romanisasi umum biasanya ditulis 어 [eo], 여 [yeo], dibaca tegas dan bentuk mulut bulat agak lebar ketika mengucapkannya.</string>
+    <string name="aturan_2">- Sebaliknya huruf vokal 오 [o] dan 요 [yo] dibaca tidak tegas dan bentuk mulut bulat kecil seperti menggabungkan bunyi antara \'O\' dan \'U\' ketika mengucapkannya.</string>
+    <string name="aturan_3">- Huruf konsonan ㅇ [~/ng] pada posisi awal dan tengah suku kata tidak dibaca, dan hanya dibaca \'ng\' ketika berada pada akhir suku kata.</string>
+    <string name="aturan_4">- Huruf konsonan ㅎ [h/t] hanya dibaca \'H\' pada awal suku kata, di tengah dibaca lemah atau terkadang tidak dibaca sama sekali, dan di akhir suku kata dibaca \'T\' atau juga tidak dibaca.</string>
     <string name="cara_baca_hangul">CARA BACA HANGUL</string>
     <string name="konsonan">KONSONAN</string>
     <string name="awal">AWAL</string>
