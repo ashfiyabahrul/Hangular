@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:stretchColumns="0,1,2,3,4"
+    android:layout_marginStart="8dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TableRow>
+    <TableRow
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:text="@string/nama"
             android:id="@+id/tabel_nama"
-            android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textColor="@color/black"/>
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:id="@+id/tabel_konsonan"
-            android:layout_gravity="center" />
+            android:layout_gravity="start"/>
 
         <TextView
             android:text="@string/awal"
             android:id="@+id/tabel_awal"
-            android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textColor="@color/black"/>
 
         <TextView
             android:text="@string/tengah"
             android:id="@+id/tabel_tengah"
-            android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textColor="@color/black"/>
 
         <TextView
             android:text="@string/akhir"
             android:id="@+id/tabel_akhir"
-            android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textColor="@color/black"/>
 
     </TableRow>
 

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.getHangul().observe(this,{
             if (it.isEmpty()) {
-                viewModel.insertHangul(HangulVokal.generateVokal(),HangulKonsonan.generateKonsonan())
+                viewModel.insertHangul(HangulVokal.generateVokal(), HangulKonsonan.generateKonsonan())
             }
         })
 
@@ -50,4 +50,6 @@ class MainActivity : AppCompatActivity() {
         val factory = ViewModelFactory.getInstance(activity.application)
         return ViewModelProvider(activity,factory).get(MainViewModel::class.java)
     }
+
+
 }
