@@ -107,6 +107,7 @@ class QuizActivity : AppCompatActivity() {
             intent.putExtra("score", mScore) // pass the current score to the second screen
             intent.putExtra("jumlahsoal", questions.size)
             startActivity(intent)
+            finish()
         }
     }
 
