@@ -13,8 +13,8 @@ import com.hangular.hangular.utils.ViewModelFactory
 class MainActivity : AppCompatActivity() {
 
     val mFragmentManager = supportFragmentManager
-    val menuBelajar = MenuBelajarFragment()
-    val fragment = mFragmentManager.findFragmentByTag(MenuBelajarFragment::class.java.simpleName)
+    val menuUtama = MenuUtamaFragment()
+    val fragment = mFragmentManager.findFragmentByTag(MenuUtamaFragment::class.java.simpleName)
     lateinit var binding : ActivityMainBinding
     lateinit var viewModel: MainViewModel
 
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         if (fragment !is MenuUtamaFragment) {
             mFragmentManager
                 .beginTransaction()
-                .add(R.id.menu_utama,menuBelajar, MenuBelajarFragment::class.java.simpleName)
+                .add(R.id.menu_utama,menuUtama, MenuUtamaFragment::class.java.simpleName)
                 .commit()
         }
     }

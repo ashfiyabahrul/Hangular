@@ -31,4 +31,7 @@ interface HangulDao {
 
     @Query("SELECT * FROM hangul WHERE id = :id")
     fun getDetail(id: Int) : LiveData<Hangul>
+
+    @Query ("SELECT * FROM hangul WHERE nama = :nama")
+    fun getByName (nama : String ) : LiveData<Hangul>
 }

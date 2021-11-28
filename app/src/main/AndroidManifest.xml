@@ -10,8 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hangular">
         <activity
+            android:name=".ui.quiz.HasilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.splash.SplashScreenActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +35,7 @@
             android:exported="true" />
         <activity
             android:name=".ui.home.MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
 
 </manifest>

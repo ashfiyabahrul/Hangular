@@ -8,6 +8,7 @@ import com.hangular.hangular.ui.baca.CaraBacaViewModel
 import com.hangular.hangular.ui.detail.DetailViewModel
 import com.hangular.hangular.ui.home.MainViewModel
 import com.hangular.hangular.ui.hangul.VocalViewModel
+import com.hangular.hangular.ui.quiz.QuizViewModel
 
 class ViewModelFactory private constructor(private val application: Application) : ViewModelProvider.NewInstanceFactory()
 {
@@ -37,6 +38,9 @@ class ViewModelFactory private constructor(private val application: Application)
         }
         else if (modelClass.isAssignableFrom(CaraBacaViewModel::class.java)) {
             return CaraBacaViewModel(application) as T
+        }
+        else if (modelClass.isAssignableFrom(QuizViewModel::class.java)) {
+            return QuizViewModel(application) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
     }

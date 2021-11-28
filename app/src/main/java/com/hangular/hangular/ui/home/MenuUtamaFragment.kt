@@ -1,10 +1,12 @@
 package com.hangular.hangular.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.hangular.hangular.ui.quiz.QuizActivity
 import com.hangular.hangular.R
 import com.hangular.hangular.databinding.FragmentMenuUtamaBinding
 
@@ -38,7 +40,9 @@ class MenuUtamaFragment : Fragment(), View.OnClickListener {
                     commit()
                 }
         } else if (v?.id == R.id.btn_quiz) {
-            val mFragmentManager = parentFragmentManager
+            val intent = Intent(activity, QuizActivity::class.java)
+            startActivity(intent)
+            /*val mFragmentManager = parentFragmentManager
             val menuQuiz = MenuQuizFragment()
             mFragmentManager
                 .beginTransaction()
@@ -46,7 +50,7 @@ class MenuUtamaFragment : Fragment(), View.OnClickListener {
                     replace(R.id.menu_utama,menuQuiz, MenuQuizFragment::class.java.simpleName)
                     addToBackStack(null)
                     commit()
-                }
+                }*/
         }
     }
 }
