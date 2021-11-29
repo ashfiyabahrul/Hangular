@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.hangular.hangular.R;
+import com.hangular.hangular.ui.home.MainActivity;
 
-public class HasilActivity extends AppCompatActivity {
+public class HasilActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +38,25 @@ public class HasilActivity extends AppCompatActivity {
             editor.putInt("highscore", score);
             editor.commit();
         }
+
+        Button btnCobaLagi = findViewById(R.id.button);
+        Button btnHome = findViewById(R.id.btn_home);
+
+        btnCobaLagi.setOnClickListener(this);
+        btnHome.setOnClickListener(this);
     }
 
+    @Override
     public void onClick(View view) {
-        Intent intent = new Intent(HasilActivity.this, QuizActivity.class);
-        startActivity(intent);
+        if (view.getId() == R.id.button){
+            Intent intent = new Intent(this, QuizActivity.class);
+            startActivity(intent);
+            finish();
+        }
+        else  if (view.getId() == R.id.btn_home) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
     }
 }
